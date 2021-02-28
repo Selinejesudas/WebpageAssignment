@@ -1,0 +1,133 @@
+  
+  body{
+      background: #ddd;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:white;
+  }
+  
+   nav li {
+    float: right;
+  }
+  
+  nav  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+ .item{
+     display: block;
+     margin:60px;
+     background:white ;
+     text-align: center;
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     line-height: 1.6;
+     font-size:15px;
+     box-sizing: inherit;
+     display: block;
+     width: 800px;
+     padding: 40px 60px 10px;
+     float: left;
+ }
+  img{
+      display: block;
+       margin:0 auto;
+       height: 150%;
+       width: 80%;
+
+  }
+  .login{
+    background-color:rgba(0, 0, 0, 0.8);
+    padding:80px 0;
+    margin-left:1000px;
+    margin-top :60px;
+    color: white;
+    }
+h{
+  font-size:20px;
+}
+p{
+  line-height: 1.6;
+}
+input{
+  width:240px;
+  text-align:center;
+  background:whitesmoke;
+  border:2px solid transparent;
+  font-size:8px;
+  padding:10px 0;
+  transition: border .5s;
+}
+input[type=text],input[type=email]{
+  border:2px solid transparent;
+  color:black;
+  padding:10px 0;
+  background:white;
+  font-size:15px;
+  line-height:25px;
+}
+button{
+  background-color:rgb(187, 25, 25);
+  color:white;
+  padding:10px 0;
+  width:240px;
+  line-height:25px;
+  margin: 10px;
+}
+button:hover {
+  background-color:greenyellow;
+}
+.socialicon a{
+list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    border: 1px solid #e7e7e7;
+    background-color:white;
+    padding: 11px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  color:black;
+  background:#ddd;
+}
+
+  .socialicon{
+    padding:30px;
+    background: white;
+    margin-left:1000px;
+    margin-top :30px;
+  }
+  .socialicon a:hover{
+    background: lawngreen;
+  }
+  .shop nav li {
+    float: left;
+  }
+    
+
+
+
+
+
+
+
+  
+  
+  
